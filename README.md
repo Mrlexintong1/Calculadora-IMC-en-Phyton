@@ -8,16 +8,9 @@ Este tipo de herramientas es útil para fomentar la conciencia sobre la salud y 
 🚀 Características
 Interactividad: El programa interactúa con el usuario para obtener datos y proporciona una experiencia personalizada ✍️.
 
-Cálculo del IMC: Calcula el IMC utilizando la fórmula estándar:
-
-      peso
-IMC= __________
-      altura2
-
+Cálculo del IMC: Calcula el IMC utilizando la fórmula estándar
 
  
-
-​
  
 Clasificación: El IMC calculado se clasifica en las categorías de:
 
@@ -74,5 +67,5 @@ Guardar y comparar los resultados de IMC de múltiples usuarios 👥.
 Las contribuciones son bienvenidas 🙌. Si tienes ideas para mejorar este proyecto, siéntete libre de abrir un issue o enviar un pull request 🔄.
 
 📧 Contacto
-Si tienes alguna pregunta, no dudes en contactarme en mi LinkedIn o por correo electrónico a  📬.
+Si tienes alguna pregunta, no dudes en contactarme en mi LinkedIn: https://www.linkedin.com/in/carlostlali/ o por correo electrónico a carlos_tlali@comuidad.unam.mx 📬.
 
