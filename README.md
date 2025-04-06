@@ -41,6 +41,8 @@ cd Calculadora-IMC-en-Phyton
 Ejecuta el programa:
 
 python calculadora_imc.py
+o
+calculadora_imc.py.ipynb
 
 Introduce tu nombre, edad, altura y peso cuando se te solicite. El programa calculará automáticamente tu IMC y te proporcionará la clasificación correspondiente 💪.
 
