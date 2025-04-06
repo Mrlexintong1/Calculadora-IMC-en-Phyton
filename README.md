@@ -74,5 +74,5 @@ Guardar y comparar los resultados de IMC de múltiples usuarios 👥.
 Las contribuciones son bienvenidas 🙌. Si tienes ideas para mejorar este proyecto, siéntete libre de abrir un issue o enviar un pull request 🔄.
 
 📧 Contacto
-Si tienes alguna pregunta, no dudes en contactarme en mi LinkedIn o por correo electrónico a tu-email@example.com 📬.
+Si tienes alguna pregunta, no dudes en contactarme en mi LinkedIn o por correo electrónico a  📬.
 
