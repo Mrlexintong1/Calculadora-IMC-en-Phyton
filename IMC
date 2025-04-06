@@ -1,0 +1,43 @@
+# Programa que solicita nombre, edad y altura, y calcula el IMC
+def obtener_datos_usuario():
+    nombre = input("Cual es tu nombre: ")
+    edad = int(input(f"Hola, {nombre}, ¿cuántos años tienes? "))
+    altura = float(input(f"Hola, {nombre}, ¿cuál es tu altura ? "))
+    peso = float(input(f"Hola, {nombre}, ¿cuál es tu peso en kilogramos? "))
+
+    return nombre, edad, altura, peso
+
+def calcular_imc(peso, altura):
+    return peso / (altura ** 2)
+
+# Llamamos a las funciones
+nombre, edad, altura, peso = obtener_datos_usuario()
+
+# Mostramos los datos
+print(f"\nHola, {nombre}, tienes {edad} años y mides {altura} metros.")
+
+# Calculamos y mostramos el IMC
+imc = calcular_imc(peso, altura)
+print(f"Tu IMC es: {imc:.2f}")
+
+# Clasificación según el IMC
+if imc < 18.5:
+    clasificacion = "bajo peso"
+elif 18.5 <= imc < 24.9:
+    clasificacion = "peso normal"
+elif 25 <= imc < 29.9:
+    clasificacion = "sobrepeso"
+else:
+    clasificacion = "obesidad"
+
+print(f"Clasificación: {clasificacion}")
+
+     
+Escribe tu nombre: carlos
+Hola, carlos, ¿cuántos años tienes? 32
+Hola, carlos, ¿cuál es tu altura en metros? 1.70
+Hola, carlos, ¿cuál es tu peso en kilogramos? 60
+
+Hola, carlos, tienes 32 años y mides 1.7 metros.
+Tu IMC es: 20.76
+Clasificación: peso normal
